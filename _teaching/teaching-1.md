@@ -4,6 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/teaching-1
 venue: "Royal Holloway, University of London, Department of Computer Science"
+date: 2022-01-01
 location: "London, UK"
 ---
 
