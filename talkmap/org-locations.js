@@ -1,22 +1,22 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Some Aspects of Directed Graphs: Paths and Cycles in Digraphs (Problem Session)<br />2nd SCHOOL ON GRAPH THEORY; University of Johannesburg, South Africa",
+    -26.1849374,
+    27.9997925
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Results on the Small Quasi\u2011Kernel Conjecture<br />29th British Combinatorial Conference; Lancaster University, Lancaster, UK",
+    54.0098429,
+    -2.7875768
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Lower Bounds for Maximum Weight Bisections of Graphs with Bounded Degrees<br />30th British Combinatorial Conference; Queen Mary University of London, London, UK",
+    51.5247403,
+    -0.0393136
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Bounds on Maximum Directed Cuts<br />Open University Discrete Maths Seminar; Open University, London, UK",
+    51.540879,
+    -0.1432379
   ]
 ];
