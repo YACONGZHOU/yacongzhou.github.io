@@ -8,6 +8,6 @@ date: 2022-01-01
 location: "London, UK"
 ---
 
-Taught in Fall 2022, Fall 2023, and Spring 2024.
+Also taught in Fall 2023 and Spring 2024.
 
 This is a description of a teaching experience. You can use markdown like any other post.
