@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yacong Zhou/About me"
+title                    : "Yacong Zhou"
 title_separator          : "-"
 name                     : &name "Yacong Zhou (周亚聪)"
 description              : &description "Yacong Zhou (周亚聪)'s academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
