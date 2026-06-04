@@ -7,6 +7,6 @@ venue: "Royal Holloway, University of London, Department of Computer Science"
 date: 2022-01-01
 location: "London, UK"
 ---
-Also taught in Spring 2023 and Spring 2024.
+Also in Spring 2023 and Spring 2024.
 
 This is a description of a teaching experience. You can use markdown like any other post.
