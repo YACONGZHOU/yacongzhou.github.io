@@ -18,12 +18,12 @@ redirect_from:
 
 - **Ph.D. in Computer Science**, 2025  
   Royal Holloway, University of London  
-  Supervisors: [Gregory Gutin](https://pure.royalholloway.ac.uk/en/persons/gregory-gutin/) and Stefanie Gerke  
+  Supervisors: [Gregory Gutin](https://pure.royalholloway.ac.uk/en/persons/gregory-gutin/) and [Stefanie Gerke](https://pure.royalholloway.ac.uk/en/persons/stefanie-gerke/) 
   Thesis: [Partition Problems for Directed and Undirected Graphs](https://pure.royalholloway.ac.uk/en/publications/partition-problems-for-directed-and-undirected-graphs/)
 
 - **Master's Degree**  
   Shanghai University  
-  Supervisor: Liying Kang
+  Supervisor: [Liying Kang](https://en.math.shu.edu.cn/info/1017/1586.htm)  
 
 ## Research Interests
 
