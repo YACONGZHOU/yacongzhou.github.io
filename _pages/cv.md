@@ -1,6 +1,7 @@
+
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +10,80 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Academic Positions
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Postdoctoral Researcher**  
+  Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Ph.D. in Computer Science**, 2025  
+  Royal Holloway, University of London  
+  Supervisors: [Gregory Gutin](https://pure.royalholloway.ac.uk/en/persons/gregory-gutin/) and Stefanie Gerke  
+  Thesis: [Partition Problems for Directed and Undirected Graphs](https://pure.royalholloway.ac.uk/en/publications/partition-problems-for-directed-and-undirected-graphs/)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+- **Master's Degree**  
+  Shanghai University  
+  Supervisor: Liying Kang
+
+## Research Interests
+
+Graph Theory, Extremal Combinatorics, and Theoretical Computer Science.
+
+## Publications
+
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+<ul>
+{% for post in sorted_publications %}
+  <li>
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+    {% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}
+    {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+    {% if post.excerpt %}
+      <div><small>{{ post.excerpt }}</small></div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+## Talks and Presentations
+
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+<ul>
+{% for post in sorted_talks %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.venue %}, {{ post.venue }}{% endif %}
+    {% if post.date %} ({{ post.date | date: "%B %Y" }}){% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+## Teaching
+
+{% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+<ul>
+{% for post in sorted_teaching %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.venue %}, {{ post.venue }}{% endif %}
+    {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+  </li>
+{% endfor %}
+</ul>
+
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+## Academic Service
+
+**Referee for:**
+- Journal of Graph Theory
+- SIAM Journal on Discrete Mathematics
+- The Electronic Journal of Combinatorics
+- European Journal of Combinatorics
+- Discrete Mathematics
