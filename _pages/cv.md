@@ -75,8 +75,6 @@ Graph Theory, Extremal Combinatorics, and Theoretical Computer Science.
   </li>
 {% endfor %}
 </ul>
-
-  {% endfor %}</ul>
   
 
 ## Academic Service
