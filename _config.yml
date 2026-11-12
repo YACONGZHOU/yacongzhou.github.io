@@ -194,6 +194,20 @@ exclude:
   - README
   - tmp
   - vendor
+  - _pages/markdown.md
+  - _pages/tag-archive.html
+  - _pages/category-archive.html
+  - _pages/page-archive.html
+  - _pages/collection-archive.html
+  - _pages/archive-layout-with-content.md
+  - _pages/non-menu-page.md
+  - _pages/year-archive.html
+  - _pages/portfolio.html
+  - _pages/cv-json.md
+  - _pages/sitemap.md
+  - _posts
+  - _portfolio
+  - markdown_generator
 keep_files:
   - .git
   - .svn
